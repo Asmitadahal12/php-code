@@ -16,6 +16,7 @@
             border:1px solid #b42c2cff;
             margin:5px auto;
         }
+        
          form button{
             width: 60%;
             height:40px;
