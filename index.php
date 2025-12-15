@@ -16,7 +16,6 @@
             border:1px solid #b42c2cff;
             margin:5px auto;
         }
-        
          form button{
             width: 60%;
             height:40px;
@@ -25,6 +24,7 @@
             background:blue;
             margin:5px auto;
         }
+
         .data-display{
             width:90%;
             margin:20px auto;
@@ -32,6 +32,7 @@
         img{
             width:100px;
         }
+
     </style>
 </head>
 <body>
@@ -59,6 +60,7 @@
 <?php
 include('functions.php');
 $data=getData();
+
 ?>
 
 
@@ -83,6 +85,7 @@ $data=getData();
             <tbody>
                 <?php
                 $index=1;
+
                 foreach($data as $value) {?>
                 <tr>
                     <td> <?php echo $index ?></td>
@@ -100,7 +103,8 @@ $data=getData();
                 }?>
             </tbody>
         </table>
-         <?php } ?>
+         <?php 
+        } ?>
     </div>
 </body>
 </html>
