@@ -104,7 +104,8 @@ $data=getData();
             </tbody>
         </table>
          <?php 
-        } ?>
+        } 
+        ?>
     </div>
 </body>
 </html>
